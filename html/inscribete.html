@@ -17,7 +17,7 @@
 	<!-- inicio del Header -->
 	<nav class="navbar navbar-expand-sm" style="background-color: 6CBFE0; font-size: 55px; width: 100%;">
 	 		 <img src="images/logo.png" class="rounded droprigth" alt="logo-oops" width="180px"> 
-	 		 <div class=" navbar-text ml-auto" > <b>Inicio</b> </div>
+	 		 <div class=" navbar-text ml-auto" > <b>Inscríbete</b> </div>
 
 	</nav>
 
@@ -51,8 +51,32 @@
 <!-- Fin del Header -->
 
 
-	<br><h1>Aquí va el resto del código </h1><br>
-<!-- Aquí va el resto del código -->
+<div class="container">
+  <h2>Envíanos un Email:</h2><br>
+  <p>Para atenderte de forma personalizada, envíanos un email para responder a tus dudas y enviarte el formulario de inscripción</p>
+  <form class="form-horizontal" action="enviado.html">
+    <div class="form-group">
+  <label for="usr">Tu nombre:</label>
+  <input type="text" class="form-control" id="usr" placeholder="Escribe tu Nombre">
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="email">Email:</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id="email" placeholder="Escribe tu email" name="email">
+      </div>
+    </div>
+     <div class="form-group">
+       <label for="comment">Commentarios o preguntas:</label>
+       <textarea class="form-control" rows="5" id="comment" placeholder="Escribe tus comentarios o preguntas"></textarea>
+    </div>
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </div>
+    </div>
+  </form>
+</div>
+
 
 
 
